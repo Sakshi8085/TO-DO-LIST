@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <MARQUEE  direction=left height=60  bgcolor=grey behavior=alternate><h1>Welcome!!</h1></marquee>
+    
+        <hr size=5 color=green width=300>
+        <center><font color=GREY size=10 face="algerian" >ENTER YOUR PENDING TASK</font></center>
+        
+
+
+
+
+
+
+    <div class="container">
+        <nav id="navbar">
+            <h1>To-Do List</h1>
+        </nav>
+        <div class="content">
+            <div class="input-container">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+            <select id="priorityFilter">
+                <option value="all">All</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
